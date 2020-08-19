@@ -18,6 +18,7 @@ public class RectangleComponent extends JComponent {
         box.translate(150, 250); 
         // Draw moved rectangle
         g2.draw(box);
+        g2.drawString("Hello", 200, 300);
         g2.drawImage(img, 0, 0, null);
     }
 }
